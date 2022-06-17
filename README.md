@@ -7,7 +7,7 @@ then from the root directory "npm start"
 
 the api should start of port 3001 and the main application can be viewed on 3000
 
-#Notes
+# Notes
 Before i started i had already decided i was going to use express and make API calls.
 I hadnt immediately landed on react and was exploring using just javascript. but that didnt last long.
 
@@ -22,7 +22,7 @@ as always im sure there was a way easier way to do it and i will be thinking abo
 
 the program does check for null values before it updates the UI, this is because the fetch function is asyncronous and somtimes it doesnt fetch the data faster than the elements are built. leading to errors such as "cannot iterate undefined" and such
 
-#Improvements
+# Improvements
 
 aside from refactoring the loops and messing about with naming conventions the data is handled pretty well
 
